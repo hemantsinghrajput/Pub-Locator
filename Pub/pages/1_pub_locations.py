@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 
 
 
-df = pd.read_csv('main1.csv')
+df = pd.read_csv('mains.csv')
 
 st.title(":red[ GET Pub Locations  🍺🍺]")
 image = Image.open('./resources/location.jpg')
