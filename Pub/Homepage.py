@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 
 
 
-df = pd.read_csv('main1.csv')
+df = pd.read_csv('main.csv')
 
 st.title(":red[Open Pubs Application 🍻🍻]")
 image = Image.open('./resources/pub.jpg')
