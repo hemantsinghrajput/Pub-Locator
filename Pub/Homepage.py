@@ -12,7 +12,7 @@ st.set_page_config(layout="wide")
 df = pd.read_csv('./Pub/mains.csv')
 
 st.title(":red[Open Pubs Application 🍻🍻]")
-image = Image.open('./resources/pub.jpg')
+image = Image.open('./Pub/resources/pub.jpg')
 st.image(image, use_column_width=True)
 
 st.markdown("## :blue[About the Dataset]")
@@ -33,7 +33,7 @@ st.write(df.duplicated().sum())
 
 
 st.markdown("###### Top 10 Locations Which have more pubs")
-image = Image.open('./resources/pubs_by_location.png')
+image = Image.open('./Pub/resources/pubs_by_location.png')
 st.image(image, use_column_width=True)
 
 st.write("Made by Hemant Singh Rajput")
