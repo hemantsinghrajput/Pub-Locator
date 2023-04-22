@@ -8,7 +8,7 @@ import os
 st.set_page_config(layout="wide")
 
 
-df = pd.read_csv('main1.csv')
+df = pd.read_csv('mains.csv')
 
 
 st.title(":blue[Find the Nearest Pub 🍻🍻]")
