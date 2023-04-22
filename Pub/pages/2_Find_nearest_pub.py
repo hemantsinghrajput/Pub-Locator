@@ -8,11 +8,11 @@ import os
 st.set_page_config(layout="wide")
 
 
-df = pd.read_csv('mains.csv')
+df = pd.read_csv('./Pub/mains.csv')
 
 
 st.title(":blue[Find the Nearest Pub 🍻🍻]")
-image = Image.open('./resources/near.jpg')
+image = Image.open('./Pub/resources/near.jpg')
 st.image(image, use_column_width=True)
 
 
